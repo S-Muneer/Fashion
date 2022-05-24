@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    /* overflow: hidden; */
+   
+}
+
+.mheader {
+    
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.801);
+    padding-bottom: 20px;
+    font-family: Arial;
+    display: flex;
+    
+
+
+}
+ 
+.dropbtn {
+  padding: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: inherit;
+    color:white;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 220px;
+
+}
+
+.dropdown-content {
+    background-color: black;
+    position: absolute;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px;
+    width: 150px; 
+    z-index: 2;
+
+}
+
+.drop-con{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 0% 5px;
+}
+
+.drop-con > a{
+    color: white !important;
+}
+
+
+
+.drop-con i{
+    color: white;
+}
+
+.dropdown-content a {
+    color: black;
+    display: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+   
+}
+
+.dropdown:hover .dropdown-content a{
+    display: block;
+   
+    
+}
+.dropdown-content a:hover{
+    background-color: lightgrey;
+}
+
+.dropdown:hover .dropbtn {
+
+}
+
+
+.nav {
+    position: relative;
+    margin-top: 60px;
+  
+}
+.nav a{
+    padding: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+.navbar ul li a {
+        color: black;
+        font-weight: bolder;
+        text-decoration: none;
+       
+
+
+
+    }
+.bg{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+
+}
+.bgi img{
+    width: 100%;
+}
+
+
+.bgt{
+    position: absolute;
+    top: 150px;
+    font-weight: bold;
+    
+    font-size: 30px;
+    margin-left: 750px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+}
+
+.bgbt{
+    color: white;
+    
+       background-color: orangered;
+       border: 1px solid orangered;
+       font-size: 15px;
+       text-align: center;
+       margin-top: 10px;
+       padding: 10px; 
+      
+}
+
+.bgbt:hover{
+    background-color: skyblue;
+    border: 1px solid skyblue;
+}
+    
+
+.cards{
+    
+    display: flex; 
+    position: relative;
+    top: -50px;
+    justify-content: center;
+    
+
+}
+.card1 , .card2 , .card3 {
+    margin-left: 30px;
+    height: 100px;
+    width: 400px;
+    border: 1px solid red;
+    background-color: white;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 13px;
+    font-family: Arial;
+    
+
+}
+.box1 .angular{
+    
+
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<__box_______________________________>>>>>>>>>>>>>>>>>>>>>*/
+
+.boxes{
+    width: 100%;
+    
+}
+.box1{
+    width: 100px;
+    height: 500px;
+    border: 2px solid red;
+}
+
+
+
